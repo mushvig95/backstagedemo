@@ -1,0 +1,60 @@
+@import 'navigation';
+@import 'header';
+@import 'grid';
+@import 'search';
+
+
+@font-face {
+    font-family: "Suisse Int'l Mono";
+    src: url(../fonts/suisse-mono-regular.otf);
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    box-sizing: border-box;
+    font-family: "Suisse Int'l Mono";
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.col-header {
+    height: 72px;
+}
+
+[class^='col']{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,a:hover,a:active,a:focus {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.main_wrapper {
+    filter: blur(0);
+    transition: filter .1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
